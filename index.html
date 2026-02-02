@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="resources/JuanJoseCalderonBenjumea.jpeg" alt="Foto de perfil" class="profile-img" id="profileImg">
+            <h1 id="nombre">Juan Jose Calderón Benjumea</h1>
+            <p id="profesion">Profesión o Título</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span>📧</span>
+                    <span id="email">juancalderon2005.18@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <span>📱</span>
+                    <span id="telefono">+57 322 651 6767</span>
+                </div>
+                <div class="contact-item">
+                    <span>📍</span>
+                    <span id="ubicacion">Manizales-Colombia</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="content">
+            <section class="section">
+                <h2 class="section-title">Perfil Profesional</h2>
+                <p class="about-text">
+                    Profesional con amplia experiencia en programacion. Apasionado por el desarrollo de paguinas web, 
+                    con habilidades demostradas en Html, css, js, Php. Orientado a resultados y con 
+                    capacidad para trabajar en equipo en entornos dinámicos y desafiantes.
+                </p>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Experiencia Laboral</h2>
+                <div class="experience-item">
+                    <div class="item-title">Practicante</div>
+                    <div class="item-subtitle">La Patria</div>
+                    <div class="item-description">
+                        Desarrollador web, y soporte tecnico
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="item-title">Logistica</div>
+                    <div class="item-subtitle">Biker Manizales</div>
+                    <div class="item-description">
+                        Logistica de eventos
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Educación</h2>
+                <h3>Basica Primaria</h3>
+                <h4>Instituto 7 de agosto</h4>
+                <br>
+                <h3>Secundaria</h3>
+                <h4>Instituto Universitario de Caldas</h4>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Habilidades</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-name">JavaScript</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="60"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">HTML/CSS</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">P h p</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="48"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Gestión de Proyectos</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Trabajo en Equipo</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="92"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Comunicación</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="88"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Idiomas</h2>
+                <div class="languages">
+                    <div class="language-item">
+                        <div class="language-name">Español</div>
+                        <div class="language-level">Nativo</div>
+                    </div>
+                    <div class="language-item">
+                        <div class="language-name">Inglés</div>
+                        <div class="language-level">Basico</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <button class="print-button" onclick="window.print()">🖨️ Imprimir</button>
+
+</body>
+<script src="js/index.js"></script>
+</html>
